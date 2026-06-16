@@ -4,22 +4,22 @@ cask "handshake" do
 
   on_macos do
     on_intel do
-      sha256 "f4a695a6c7bbb14f2869a82115b8909e40444486b7eedea3e6285a220991a292"
+      sha256 "e8d8124ca4d0aa2c336a5bf50373870356924a434fc63450b793231b060ec23c"
       url "https://github.com/ThisisBankole/handshake/releases/download/v#{version}/handshake_darwin_amd64.tar.gz"
     end
     on_arm do
-      sha256 "6c20bf107a9b70acf8e0445ddc48d573621293daa1fde7a97ec02ba3cdcb0932"
+      sha256 "1f3410e833354fa0fde374199ce95870040aa7d86cb805d352d71495d46cab73"
       url "https://github.com/ThisisBankole/handshake/releases/download/v#{version}/handshake_darwin_arm64.tar.gz"
     end
   end
 
   on_linux do
     on_intel do
-      sha256 "f3022c18238ba1832696a80fe649bbcef87c1968ff7472b213af947281df2101"
+      sha256 "dc38bd05a0a57c53939df6b7bb0bcd7b728e5d6488543b039cfa8d3628fada82"
       url "https://github.com/ThisisBankole/handshake/releases/download/v#{version}/handshake_linux_amd64.tar.gz"
     end
     on_arm do
-      sha256 "d58459a04cb3e5c767fcc4eeb793d079df69b039d9820d33f16c9faed8515a35"
+      sha256 "97c2d1709365313be81be59c43fce0f0c44646a710478b88ef9e8bffb413dd53"
       url "https://github.com/ThisisBankole/handshake/releases/download/v#{version}/handshake_linux_arm64.tar.gz"
     end
   end
